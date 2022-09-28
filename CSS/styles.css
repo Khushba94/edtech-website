@@ -7,3 +7,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.p-width {
+  width: 35%;
+  margin-left: 31rem;
+}
+
+.card-display {
+  display: flex;
+  flex-direction: column;
+}
