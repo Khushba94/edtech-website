@@ -10,6 +10,9 @@
 .p-width {
   width: 30rem;
 }
+.btn-color{
+  background-color: #289BDE;
+}
 
 @media only screen and (max-width: 600px) {
   .card{
