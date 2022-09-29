@@ -11,7 +11,13 @@
   width: 30rem;
 }
 .btn-color{
-  background-color: #289BDE;
+  background-color: #0dcaf0;
+}
+.img-hidden{
+  display: none;
+}
+.img-show{
+  display: ;
 }
 
 @media only screen and (max-width: 600px) {
