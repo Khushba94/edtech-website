@@ -8,11 +8,18 @@
   transform: translate(-50%, -50%);
 }
 .p-width {
-  width: 35%;
-  margin-left: 31rem;
+  width: 30rem;
 }
 
-.card-display {
-  display: flex;
-  flex-direction: column;
+@media only screen and (max-width: 600px) {
+  .card{
+    display: flex;
+    flex-direction: column !important;
+  }
+  .card img{
+    width: 100%;
+  }
+  .p-width{
+    width: 50%;
+  }
 }
