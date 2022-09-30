@@ -20,7 +20,32 @@
   width: 10%;
   height: 10%;
 }
-@media only screen and (max-width: 600px) {
+#view-course{
+  display: none;
+}
+/* tab view */
+@media only screen and (max-width: 992px) {
+  #working, #company, #img-4, #img-5, #img-6, #see-course{
+    display: none !important;
+  }
+  #view-course{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .accordion{
+    width: 100% !important;
+  }
+  #register-text{
+    flex-direction: column;
+    text-align: center;
+    width:100% !important;
+  }
+
+}
+/* mobile view */
+@media only screen and (max-width: 688px) {
   .card{
     display: flex;
     flex-direction: column !important;
@@ -30,5 +55,12 @@
   }
   .p-width{
     width: 50%;
+  }
+  #working, #conpany{
+    display: none !important;
+  }
+  #student-feedback, #student, #course{
+    display: flex;
+    flex-direction: column;
   }
 }
