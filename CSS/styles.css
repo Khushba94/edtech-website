@@ -13,11 +13,12 @@
 .btn-color{
   background-color: #0dcaf0;
 }
-.img-hidden{
-  display: none;
-}
 .fa-regular{
   color:gold;
+}
+.company-img{
+  width: 10%;
+  height: 10%;
 }
 @media only screen and (max-width: 600px) {
   .card{
