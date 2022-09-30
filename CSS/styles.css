@@ -16,10 +16,9 @@
 .img-hidden{
   display: none;
 }
-.img-show{
-  display: ;
+.fa-regular{
+  color:gold;
 }
-
 @media only screen and (max-width: 600px) {
   .card{
     display: flex;
